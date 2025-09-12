@@ -6,7 +6,7 @@ export declare interface IComicPage {
     url: string;
     arcId: string;
     sortOrder: number;
-    imageUrl?: string;
+    imageUrl: string | null;
     transcript?: string;
     enabled: boolean;
     postDate?: string;

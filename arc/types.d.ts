@@ -7,8 +7,8 @@ export declare interface IComicArc {
     parentId?: number;
     sortOrder: number;
     enabled: boolean;
-    thumbnailUrl?: string;
-    bannerUrl?: string;
+    thumbnailUrl: string | null;
+    bannerUrl: string | null;
     summary?: string;
 }
 
