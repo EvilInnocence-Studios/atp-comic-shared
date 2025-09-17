@@ -3,13 +3,13 @@ import { NewObj } from "@core-shared/express/types";
 export declare interface IComicPage {
     id: string;
     name: string;
-    url: string;
+    url: string | null;
     arcId: string;
     sortOrder: number;
     imageUrl: string | null;
-    transcript?: string;
+    transcript: string | null;
     enabled: boolean;
-    postDate?: string;
+    postDate: string | null;
     characters?: IComicPageCharacter[];
     commentary?: IComicPageCommentary[];
 }

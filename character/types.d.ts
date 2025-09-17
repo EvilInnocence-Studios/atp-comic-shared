@@ -5,7 +5,7 @@ export declare interface IComicCharacter {
     name: string;
     imageUrl: string | null;
     sortOrder: number;
-    bio?: string;
+    bio: string | null;
     attributes?: ICharacterAttribute[];
 }
 
