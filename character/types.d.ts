@@ -4,6 +4,8 @@ export declare interface IComicCharacter {
     id: string;
     name: string;
     imageUrl: string | null;
+    thumbnailUrl: string | null;
+    enabled: boolean;
     sortOrder: number;
     bio: string | null;
     attributes?: ICharacterAttribute[];
