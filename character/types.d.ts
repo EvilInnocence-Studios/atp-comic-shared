@@ -3,8 +3,9 @@ import { NewObj } from "@core-shared/express/types";
 export declare interface IComicCharacter {
     id: string;
     name: string;
-    imageUrl: string | null;
-    thumbnailUrl: string | null;
+    imageId: string | null;
+    thumbnailId: string | null;
+    mainImageId: string | null;
     enabled: boolean;
     sortOrder: number;
     bio: string | null;
