@@ -22,3 +22,11 @@ export declare interface ICharacterAttribute {
 }
 
 export type NewCharacterAttribute = NewObj<ICharacterAttribute>;
+
+export declare interface ICharacterMedia {
+    id: string;
+    characterId: string;
+    url: string;
+    caption: string;
+    order: number;
+}
