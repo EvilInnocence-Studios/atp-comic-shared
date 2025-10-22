@@ -3,7 +3,6 @@ import { NewObj } from "@core-shared/express/types";
 export declare interface IComicCharacter {
     id: string;
     name: string;
-    imageId: string | null;
     thumbnailId: string | null;
     mainImageId: string | null;
     enabled: boolean;
