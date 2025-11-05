@@ -6,6 +6,7 @@ export declare interface IComicCharacter {
     thumbnailId: string | null;
     mainImageId: string | null;
     enabled: boolean;
+    showDetails: boolean;
     sortOrder: number;
     bio: string | null;
     attributes?: ICharacterAttribute[];
