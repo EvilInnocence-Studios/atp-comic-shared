@@ -7,6 +7,7 @@ export declare interface IComicArc {
     parentId: string | null;
     sortOrder: number;
     enabled: boolean;
+    isVerticalScroll: boolean;
     thumbnailUrl: string | null;
     bannerUrl: string | null;
     summary: string | null;
