@@ -11,6 +11,7 @@ export declare interface IComicArc {
     thumbnailUrl: string | null;
     bannerUrl: string | null;
     summary: string | null;
+    transcript: string;
 }
 
 export type NewComicArc = NewObj<IComicArc>;
