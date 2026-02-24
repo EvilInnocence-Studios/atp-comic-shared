@@ -3,6 +3,7 @@ import { NewObj } from "@core-shared/express/types";
 export declare interface IComicArc {
     id: string;
     name: string;
+    postDate: string | null;
     url: string | null;
     parentId: string | null;
     sortOrder: number;
